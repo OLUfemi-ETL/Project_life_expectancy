@@ -1,0 +1,47 @@
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite3
+
+# Python cache/compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files / large artifacts (optional — uncomment if needed)
+# *.pkl
+# *.h5
+# *.model
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
